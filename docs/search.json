@@ -62,42 +62,42 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to solve real-world problems. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "Write a brief introduction about yourself here. Include:\n\nYour academic background\nYour interest in data science\nYour career goals\nAny relevant experience or projects"
+    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to solve real-world problems. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "text": "Education\n\nStatistics: Data Science - Brigham Young University, April 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, Python, C++, Probability & Inference."
   },
   {
     "objectID": "about.html#skills-interests",
     "href": "about.html#skills-interests",
     "title": "About Me",
     "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, SQL, C++, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn, Tableau, Power BI, GGplot\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nMarketing Analytics\nBiostatistics"
   },
   {
     "objectID": "about.html#goals",
     "href": "about.html#goals",
     "title": "About Me",
     "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+    "text": "Goals\nIn the short term, my main objective is to strengthen my technical skills in Python, SQL, R, and data visualization tools while gaining more experience applying statistical methods to real datasets. I want to build confidence in analyzing marketing data, such as campaign performance, customer behavior, and survey responses, and learn how to clearly communicate insights through dashboards and reports.\nIn the long term, I aspire to pursue a career in marketing analytics or data science, where I can use data to help organizations make smarter decisions about customer engagement, advertising strategies, and overall business growth.\nUltimately, I hope to become a professional who can bridge the gap between technical analysis and business strategy by providing insights that directly drive better outcomes."
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "About Me",
     "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "text": "Contact\n\nEmail: sammirasbands@gmail.com\nGitHub: github.com/Sammi02\nLinkedIn: linkedin.com/in/sammi-hilton\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "projects/data-acquisition.html",
