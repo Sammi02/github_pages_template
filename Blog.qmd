@@ -1,0 +1,97 @@
+---
+title: "Data Joining Made Simple"
+format: html
+---
+
+# Data Joining Made Simple
+
+## Introduction
+In data science, joining datasets is a foundational skill because real-world data rarely comes in one perfect table. 
+
+In this tutorial, you will learn how to join two small datasets on a common key.  We'll go over four types of joins: **inner join, outer join, left join, and right join.** This will be done in Python using pandas. By the end of this tutorial, you will feel confident in your understanding of joining two tables together. 
+
+---
+
+## Step 1: Import Pandas and Create Datasets
+
+We will start by creating two small datasets! One will have customers in it and the other one will have customer orders in it. To create data tables, you will need to import pandas!
+
+
+## Step 2: Understanding the Common Key
+When joining two datasets, you need a **column that both tables share**. This column is the **join key**. 
+
+In our example:
+
+- **Customers table** has columns:  
+  - `customer_id`  
+  - `first_name`  
+  - `last_name`  
+
+- **Orders table** has columns:  
+  - `order_id`  
+  - `customer_id`  
+  - `amount`  
+  - `product`  
+
+
+Both of these tables have a column called `customer_id` so that is our join key! 
+
+
+## Step 3: Understanding Join Types
+
+In pandas, the `merge` function is used to combine two DataFrames. In the merge function, you first specify your two dataframes. After that, you specify your common key by using the `on` argument. The main parameter that controls *how* they are combined is the `how` argument, which can take values like `"inner"`, `"outer"`, `"left"`, and `"right"`.  
+
+
+### Inner Join
+
+This is the most common type of join. An **inner join** keeps only the rows that have common characteristics in both tables. 
+
+inner_join = pd.merge(customers, orders, on="customer_id", how="inner")
+inner_join
+
+### Outer Join
+
+An **outer join** keeps all rows from both tables.
+If a match does not exist, pandas fills in missing values with `NaN`.
+
+outer_join = pd.merge(customers, orders, on="customer_id", how="outer")
+outer_join
+
+### Left Join
+
+A **left join** keeps all the rows from the first table and matches rows from the next table given where it is possible. If a customer has no order, you'll still see them in the joined table with missing values in the order columns. 
+
+left_join = pd.merge(customers, orders, on="customer_id", how="left")
+left_join
+
+### Right Join
+
+A **right join** is very similar to a left join, except that it keeps all rows from the *right* table. 
+
+right_join = pd.merge(customers, orders, on="customer_id", how="right")
+right_join
+
+## Step 4: Quick Comparison and Visual 
+
+Here’s a quick comparison of how the different join types behave generally: 
+
+| Join Type | Rows Returned | When to Use |
+|-----------|---------------|-------------|
+| **Inner** | Matching keys only | When you want overlap only |
+| **Left**  | All from left + matches from right | When left table is your main table |
+| **Right** | All from right + matches from left | When right table is your main table |
+| **Outer** | All rows from both tables | When you want everything |
+
+![Venn diagrams of join types](images/download.png) 
+
+
+## Conclusion
+
+Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can:
+- Cobmine datasets from multiple sources or platforms
+- Avoid losing data or having duplicates when merging
+- Make your data science process more accurate and run smoothly 
+
+**Call to Action**
+Try it yourself! Create your own 2 datasets (e.g., employees, students, customers) and try merging them with each of the join types we discussed! 
+
