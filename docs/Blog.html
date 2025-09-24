@@ -245,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="step-1-import-pandas-and-create-datasets" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-import-pandas-and-create-datasets">Step 1: Import Pandas and Create Datasets</h2>
 <p>We will start by creating two small datasets! One will have customer information in it and the other one will have customer orders in it. To create data tables, you will need to import pandas!</p>
-<div id="d6c49f2f" class="cell" data-execution_count="1">
+<div id="2258db11" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -318,13 +318,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="inner-join" class="level3">
 <h3 class="anchored" data-anchor-id="inner-join">Inner Join</h3>
 <p>This is the most common type of join. An <strong>inner join</strong> keeps only the rows that have common characteristics in both tables.</p>
-<div id="ec57e7a6" class="cell" data-execution_count="2">
+<div id="5e2abfbc" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>inner_join <span class="op">=</span> pd.merge(customers, orders, on<span class="op">=</span><span class="st">"customer_id"</span>, how<span class="op">=</span><span class="st">"inner"</span>)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>inner_join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="28">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <div>
 
 
@@ -379,13 +379,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="outer-join" class="level3">
 <h3 class="anchored" data-anchor-id="outer-join">Outer Join</h3>
 <p>An <strong>outer join</strong> keeps all rows from both tables. If a match does not exist, pandas fills in missing values with <code>NaN</code>.</p>
-<div id="9aa856d8" class="cell" data-execution_count="3">
+<div id="972ad846" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>outer_join <span class="op">=</span> pd.merge(customers, orders, on<span class="op">=</span><span class="st">"customer_id"</span>, how<span class="op">=</span><span class="st">"outer"</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>outer_join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="29">
+<div class="cell-output cell-output-display" data-execution_count="3">
 <div>
 
 
@@ -476,13 +476,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="left-join" class="level3">
 <h3 class="anchored" data-anchor-id="left-join">Left Join</h3>
 <p>A <strong>left join</strong> keeps all the rows from the first table and matches rows from the next table given where it is possible. If a customer has no order, you’ll still see them in the joined table with missing values in the order columns.</p>
-<div id="4f09132c" class="cell" data-execution_count="4">
+<div id="7885172e" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>left_join <span class="op">=</span> pd.merge(customers, orders, on<span class="op">=</span><span class="st">"customer_id"</span>, how<span class="op">=</span><span class="st">"left"</span>)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>left_join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="30">
+<div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 
 
@@ -546,13 +546,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="right-join" class="level3">
 <h3 class="anchored" data-anchor-id="right-join">Right Join</h3>
 <p>A <strong>right join</strong> is very similar to a left join, except that it keeps all rows from the <em>right</em> table.</p>
-<div id="03f3f2ea" class="cell" data-execution_count="5">
+<div id="826f70e1" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>right_join <span class="op">=</span> pd.merge(customers, orders, on<span class="op">=</span><span class="st">"customer_id"</span>, how<span class="op">=</span><span class="st">"right"</span>)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>right_join</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="31">
+<div class="cell-output cell-output-display" data-execution_count="5">
 <div>
 
 
@@ -680,7 +680,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can: - Cobmine datasets from multiple sources or platforms - Avoid losing data or having duplicates when merging - Make your data science process more accurate and run smoothly</p>
+<p>Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can:</p>
+<ul>
+<li>Combine datasets from multiple sources or platforms</li>
+<li>Avoid losing data or having duplicates when merging</li>
+<li>Make your data science process more accurate and run smoothly</li>
+</ul>
 <p><strong>Call to Action</strong> Try it yourself! Create your own 2 datasets (e.g., employees and departments, students and courses, or customers) and try merging them with each of the join types we discussed! The more you practice, the more you will understand about joining datasets together!</p>
 <p>For more information about joining datasets, you can check out: <a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html">pandas <code>merge</code> documentation</a> and <a href="https://pandas.pydata.org/docs/user_guide/merging.html">pandas User Guide: Merging, Joining, and Concatenating</a>.</p>
 
@@ -1275,15 +1280,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-141"><a href="#cb7-141" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusion</span></span>
 <span id="cb7-142"><a href="#cb7-142" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-143"><a href="#cb7-143" aria-hidden="true" tabindex="-1"></a>Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can:</span>
-<span id="cb7-144"><a href="#cb7-144" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cobmine datasets from multiple sources or platforms</span>
-<span id="cb7-145"><a href="#cb7-145" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Avoid losing data or having duplicates when merging</span>
-<span id="cb7-146"><a href="#cb7-146" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Make your data science process more accurate and run smoothly </span>
-<span id="cb7-147"><a href="#cb7-147" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-148"><a href="#cb7-148" aria-hidden="true" tabindex="-1"></a>**Call to Action**</span>
-<span id="cb7-149"><a href="#cb7-149" aria-hidden="true" tabindex="-1"></a>Try it yourself! Create your own 2 datasets (e.g., employees and departments, students and courses, or customers) and try merging them with each of the join types we discussed! The more you practice, the more you will understand about joining datasets together! </span>
-<span id="cb7-150"><a href="#cb7-150" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-151"><a href="#cb7-151" aria-hidden="true" tabindex="-1"></a>For more information about joining datasets, you can check out: </span>
-<span id="cb7-152"><a href="#cb7-152" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">pandas `merge` documentation</span><span class="co">](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)</span> and <span class="co">[</span><span class="ot">pandas User Guide: Merging, Joining, and Concatenating</span><span class="co">](https://pandas.pydata.org/docs/user_guide/merging.html)</span>. </span>
+<span id="cb7-144"><a href="#cb7-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-145"><a href="#cb7-145" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Combine datasets from multiple sources or platforms</span>
+<span id="cb7-146"><a href="#cb7-146" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Avoid losing data or having duplicates when merging</span>
+<span id="cb7-147"><a href="#cb7-147" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Make your data science process more accurate and run smoothly </span>
+<span id="cb7-148"><a href="#cb7-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-149"><a href="#cb7-149" aria-hidden="true" tabindex="-1"></a>**Call to Action**</span>
+<span id="cb7-150"><a href="#cb7-150" aria-hidden="true" tabindex="-1"></a>Try it yourself! Create your own 2 datasets (e.g., employees and departments, students and courses, or customers) and try merging them with each of the join types we discussed! The more you practice, the more you will understand about joining datasets together! </span>
+<span id="cb7-151"><a href="#cb7-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-152"><a href="#cb7-152" aria-hidden="true" tabindex="-1"></a>For more information about joining datasets, you can check out: </span>
+<span id="cb7-153"><a href="#cb7-153" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">pandas `merge` documentation</span><span class="co">](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)</span> and <span class="co">[</span><span class="ot">pandas User Guide: Merging, Joining, and Concatenating</span><span class="co">](https://pandas.pydata.org/docs/user_guide/merging.html)</span>. </span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->

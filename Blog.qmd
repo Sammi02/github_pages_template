@@ -131,7 +131,8 @@ Here’s a quick comparison of how the different join types behave generally:
 ## Conclusion
 
 Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can:
-- Cobmine datasets from multiple sources or platforms
+
+- Combine datasets from multiple sources or platforms
 - Avoid losing data or having duplicates when merging
 - Make your data science process more accurate and run smoothly 
 
