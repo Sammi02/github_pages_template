@@ -57,7 +57,7 @@ This repository provides a simple template for creating a personal data science 
 - **GitHub Pages not updating**: Check that Pages is enabled and pointing to /docs folder
 - **Code not running**: Ensure you have Python and required packages installed
 
-### Resources
+### Resources! 
 - [Quarto Documentation](https://https://quarto.org/docs/guide/)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [GitHub Pages Help](https://docs.github.com/en/pages)
