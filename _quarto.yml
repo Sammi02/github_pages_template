@@ -25,7 +25,7 @@ website:
           - text: "Final Project"
             href: projects/final-project.qmd
           - href: Blog.qmd
-            text: Blog
+            text: Blog 
     right:
       - icon: github
         href: https://github.com/Sammi02
