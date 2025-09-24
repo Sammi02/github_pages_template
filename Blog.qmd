@@ -125,7 +125,7 @@ Here’s a quick comparison of how the different join types behave generally:
 | **Right** | All from right + matches from left | When right table is your main table |
 | **Outer** | All rows from both tables | When you want everything |
 
-![Venn diagrams of join types](images/download.png) 
+![Venn diagrams of join types](images/download.png){fig-align="center" width=45%}
 
 
 ## Conclusion
