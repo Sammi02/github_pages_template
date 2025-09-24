@@ -138,3 +138,6 @@ Joining dataset is a fundamental skill in data science! By understanding and kno
 **Call to Action**
 Try it yourself! Create your own 2 datasets (e.g., employees and departments, students and courses, or customers) and try merging them with each of the join types we discussed! The more you practice, the more you will understand about joining datasets together! 
 
+For more information about joining datasets, you can check out: 
+[pandas `merge` documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html) and [pandas User Guide: Merging, Joining, and Concatenating](https://pandas.pydata.org/docs/user_guide/merging.html). 
+
