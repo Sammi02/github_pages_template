@@ -70,4 +70,9 @@ Ultimately, I hope to become a professional who can bridge the gap between techn
 
 ![Profile Picture](images/5G6A8868.jpeg){fig-align="center" width=20%}
 
+<p align="center">
+  <img src="images/5G6A8868.jpeg" width="20%">
+</p>
+
+
 *This portfolio showcases my learning progress and projects completed during my data science studies.*
