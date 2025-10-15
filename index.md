@@ -4,8 +4,6 @@ title: "Welcome to My Data Science Portfolio"
 
 # Hello! I'm Sammi! 👋
 
-Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
-
 Hi there — I’m Sammi Hilton, a data analyst that turns raw data into meaningful insights. I love exploring how data can drive smarter decisions, whether that’s through building dashboards, automating data pipelines, or uncovering patterns with statistical analysis and machine learning.
 
 This portfolio showcases projects that highlight my skills in Python, data visualization, modeling, and data cleaning, as well as my experience working with complex datasets. My goal is to keep learning, share what I build, and show how thoughtful analysis can make a real impact.
