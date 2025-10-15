@@ -67,7 +67,7 @@ Ultimately, I hope to become a professional who can bridge the gap between techn
 - **GitHub**: [github.com/Sammi02](https://github.com/Sammi02)
 - **LinkedIn**: [linkedin.com/in/sammi-hilton](https://linkedin.com/in/sammi-hilton)
 
-<!-- --- -->
-![Profile Picture](images/5G6A8868.png){fig-align="center" width=45%}
+
+![Profile Picture](images/5G6A8868.jpeg){fig-align="center" width=20%}
 
 *This portfolio showcases my learning progress and projects completed during my data science studies.*
