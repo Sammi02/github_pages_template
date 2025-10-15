@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\nHi there — I’m Sammi Hilton, a data analyst that turns raw data into meaningful insights. I love exploring how data can drive smarter decisions, whether that’s through building dashboards, automating data pipelines, or uncovering patterns with statistical analysis and machine learning.\nThis portfolio showcases projects that highlight my skills in Python, data visualization, modeling, and data cleaning, as well as my experience working with complex datasets. My goal is to keep learning, share what I build, and show how thoughtful analysis can make a real impact.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Hi there — I’m Sammi Hilton, a data analyst that turns raw data into meaningful insights. I love exploring how data can drive smarter decisions, whether that’s through building dashboards, automating data pipelines, or uncovering patterns with statistical analysis and machine learning.\nThis portfolio showcases projects that highlight my skills in Python, data visualization, modeling, and data cleaning, as well as my experience working with complex datasets. My goal is to keep learning, share what I build, and show how thoughtful analysis can make a real impact.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
   },
   {
     "objectID": "index.html#about-this-portfolio",
@@ -62,28 +62,28 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to solve real-world problems. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
+    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to create a story. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
     "title": "About Me",
     "section": "",
-    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to solve real-world problems. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
+    "text": "I am currently pursuing a degree in Statistics with an emphasis in Data Science and will graduate in April 2026. My studies have given me a strong foundation in statistical methods, data analysis, and programming, as well as hands-on experience with tools such as Python, SQL, R, and Power BI.\nI became interested in data science because I enjoy uncovering patterns in data and using them to create a story. Some of my projects have included analyzing survey data to understand Net Promoter Score (NPS) trends, building interactive dashboards to track business and marketing performance, and working with large datasets to clean, transform, and visualize insights.\nMy career goal is to become a data analyst or data scientist, where I can apply my skills in statistics and data science to support data-driven decision-making and create clear, actionable insights for organizations."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
     "section": "Education",
-    "text": "Education\n\nStatistics: Data Science - Brigham Young University, April 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, Python, C++, Probability & Inference."
+    "text": "Education\n\nStatistics: Data Science - Brigham Young University, April 2026\nRelevant Coursework: Statistics, Data Analysis, Programming, Python, C++, R, Excel, Data Visualization, SQL, Probability & Inference."
   },
   {
     "objectID": "about.html#skills-interests",
     "href": "about.html#skills-interests",
     "title": "About Me",
     "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, SQL, C++, R\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn, Tableau, Power BI, GGplot\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nMarketing Analytics\nBiostatistics"
+    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python, SQL, C++, R, Excel, Tableau, Power BI\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn, Tableau, Power BI, GGplot\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\nMarketing Analytics\nBiostatistics"
   },
   {
     "objectID": "about.html#goals",
@@ -97,7 +97,7 @@
     "href": "about.html#contact",
     "title": "About Me",
     "section": "Contact",
-    "text": "Contact\n\nEmail: sammirasbands@gmail.com\nGitHub: github.com/Sammi02\nLinkedIn: linkedin.com/in/sammi-hilton\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "text": "Contact\n\nEmail: sammirasbands@gmail.com\nGitHub: github.com/Sammi02\nLinkedIn: linkedin.com/in/sammi-hilton\n\n\n\n\n\nProfile Picture\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
   },
   {
     "objectID": "projects/data-acquisition.html",
@@ -174,5 +174,19 @@
     "title": "Data Joining Made Simple",
     "section": "",
     "text": "Joining dataset is a fundamental skill in data science! By understanding and knowing when to use each of the four types of joining, you can:\n\nCombine datasets from multiple sources or platforms\nAvoid losing data or having duplicates when merging\nMake your data science process more accurate and run smoothly\n\nCall to Action Try it yourself! Create your own 2 datasets (e.g., employees and departments, students and courses, or customers) and try merging them with each of the join types we discussed! The more you practice, the more you will understand about joining datasets together!\nFor more information about joining datasets, you can check out: pandas merge documentation and pandas User Guide: Merging, Joining, and Concatenating."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\n\nBYU Broadcasting — Data Scientist\n\nWrote complex SQL queries in AWS Athena to analyze TV and marketing performance data.\n\nBuilt Domo dashboards to visualize trends and support data-driven decisions across teams.\n\nGained hands-on experience with cloud-based tools including AWS, Athena, and Domo.\n\n\n\n\nDevos Outdoor — Data Engineer\n\nAutomated ETL pipelines across 5+ platforms (Reviews.io, HubSpot, QuickBooks, Luminous, etc.) by developing Python scripts for API integrations and centralizing data in MySQL.\n\nPartnered with the CFO and executive leadership to define KPIs and build Power BI dashboards for insights.\n\nDeveloped and deployed interactive, real-time Power BI dashboards to guide strategy.\n\n\n\n\nMissionary Training Center — Research Data Analyst\n\nAnalyzed student survey data in R, running regressions, t-tests, and exploratory data analysis to identify NPS trends and predictors.\n\nPresented findings to non-technical stakeholders, influencing program improvements.\n\nConducted and coded 20+ student interviews to assess survey comprehension and highlight improvement areas."
+  },
+  {
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
+    "title": "About Me",
+    "section": "Get to Know Me",
+    "text": "Get to Know Me\n\nI love to ski, run, and hike!\nI am fluent in American Sign Language!"
   }
 ]

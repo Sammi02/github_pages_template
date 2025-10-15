@@ -22,14 +22,14 @@ My career goal is to become a data analyst or data scientist, where I can apply 
 - Built **Domo dashboards** to visualize trends and support data-driven decisions across teams.  
 - Gained hands-on experience with **cloud-based tools** including AWS, Athena, and Domo.  
 
----
+<!-- --- -->
 
 ### **Devos Outdoor — Data Engineer**  
 - Automated **ETL pipelines** across 5+ platforms (Reviews.io, HubSpot, QuickBooks, Luminous, etc.) by developing **Python scripts** for API integrations and centralizing data in **MySQL**.  
 - Partnered with the **CFO and executive leadership** to define KPIs and build **Power BI dashboards** for insights.  
 - Developed and deployed **interactive, real-time Power BI dashboards** to guide strategy.  
 
----
+<!-- --- -->
 
 ### **Missionary Training Center — Research Data Analyst**  
 - Analyzed student survey data in **R**, running regressions, t-tests, and exploratory data analysis to identify **NPS trends and predictors**.  
@@ -67,7 +67,7 @@ Ultimately, I hope to become a professional who can bridge the gap between techn
 - **GitHub**: [github.com/Sammi02](https://github.com/Sammi02)
 - **LinkedIn**: [linkedin.com/in/sammi-hilton](https://linkedin.com/in/sammi-hilton)
 
----
+<!-- --- -->
 ![Profile Picture](images/5G6A8868.png){fig-align="center" width=45%}
 
 *This portfolio showcases my learning progress and projects completed during my data science studies.*
