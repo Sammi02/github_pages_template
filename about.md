@@ -68,8 +68,7 @@ Ultimately, I hope to become a professional who can bridge the gap between techn
 - **LinkedIn**: [linkedin.com/in/sammi-hilton](https://linkedin.com/in/sammi-hilton)
 
 
-![Profile Picture](images/5G6A8868.jpeg){fig-align="center" width=20%}
-
+<!-- ![Profile Picture](images/5G6A8868.jpeg){fig-align="center" width=20%} -->
 <p align="center">
   <img src="images/5G6A8868.jpeg" width="20%">
 </p>
