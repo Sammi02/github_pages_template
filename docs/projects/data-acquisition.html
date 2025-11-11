@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sammi Hilton">
+<meta name="dcterms.date" content="2025-11-10">
 
-<title>data-acquisition – Your Name - Data Science Portfolio</title>
+<title>Data Acquisition Project – Sammi Hilton - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Your Name - Data Science Portfolio</span>
+    <span class="navbar-title">Sammi Hilton - Data Science Portfolio</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -157,17 +159,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="dropdown-item" href="../projects/final-project.html">
  <span class="dropdown-text">Final Project</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../Blog.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/your-username"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/Sammi02"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://linkedin.com/in/your-profile"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/sammi-hilton"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -227,19 +233,301 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#motivating-questions" id="toc-motivating-questions" class="nav-link" data-scroll-target="#motivating-questions">Motivating Questions</a></li>
+  <li><a href="#ethical-data-collection" id="toc-ethical-data-collection" class="nav-link" data-scroll-target="#ethical-data-collection">Ethical Data Collection</a></li>
+  <li><a href="#how-to-get-the-data" id="toc-how-to-get-the-data" class="nav-link" data-scroll-target="#how-to-get-the-data">How to get the Data</a>
+  <ul class="collapse">
+  <li><a href="#set-up-your-environment-and-install-your-packages" id="toc-set-up-your-environment-and-install-your-packages" class="nav-link" data-scroll-target="#set-up-your-environment-and-install-your-packages">1. Set up your environment and install your packages</a></li>
+  <li><a href="#find-your-source-page" id="toc-find-your-source-page" class="nav-link" data-scroll-target="#find-your-source-page">2. Find your source page</a></li>
+  <li><a href="#make-a-request-for-the-data-and-extract-the-tables" id="toc-make-a-request-for-the-data-and-extract-the-tables" class="nav-link" data-scroll-target="#make-a-request-for-the-data-and-extract-the-tables">3. Make a request for the data and Extract the Tables</a></li>
+  <li><a href="#loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset" id="toc-loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset" class="nav-link" data-scroll-target="#loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset">4. Loop through each year’s table, add a year column, &amp; concatenate them into one dataset</a></li>
+  <li><a href="#clean-and-save-your-dataset" id="toc-clean-and-save-your-dataset" class="nav-link" data-scroll-target="#clean-and-save-your-dataset">5. Clean and save your dataset!</a></li>
+  </ul></li>
+  <li><a href="#explanatory-data-analysis-eda" id="toc-explanatory-data-analysis-eda" class="nav-link" data-scroll-target="#explanatory-data-analysis-eda">Explanatory Data Analysis (EDA)</a></li>
+  <li><a href="#further-informationresources" id="toc-further-informationresources" class="nav-link" data-scroll-target="#further-informationresources">Further Information/Resources</a></li>
+  <li><a href="#link-to-code" id="toc-link-to-code" class="nav-link" data-scroll-target="#link-to-code">Link to Code</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7"></h1></header><div class="quarto-title-block"><div class="quarto-title-tools-only"><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Data Acquisition Project</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sammi Hilton </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 10, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>The world’s busiest airports over the years is a fascinating topic to dive into. Travel is becoming more popular each year, so I thought it would be interesting to dive into which airports have the most passengers flying through them. Airports Council International (ACI) publishes yearly reports ranking the world’s airports. This dataset provides valuable information about which airports are the busiest, along with which airports are growing the fastest. It will provide a great opportunity to visualize global trends and identify the regions that are growing the fastest in air travel.</p>
+<p>The COVID-19 pandemic greatly disrupted global air travel. There was a huge decrease in 2020. Since then, air travel has increased. How fast airports increased their travel since 2020 will also be interesting to investigate.</p>
+<p>This project is interesting because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel.</p>
+</section>
+<section id="motivating-questions" class="level1">
+<h1>Motivating Questions</h1>
+<ul>
+<li>Which countries and airports consistently handle the most passengers from <strong>2020–2024</strong>?</li>
+<li>Which countries and airports have <strong>recovered the quickest</strong> after the COVID-19 pandemic?</li>
+</ul>
+</section>
+<section id="ethical-data-collection" class="level1">
+<h1>Ethical Data Collection</h1>
+<p>All data used in this project was obtained from Wikipedia, a public, freely available online resource. Because the pages were publicly accessible and did not require any login or API key, collecting data with pd.read_html() was ethical and consistent with good web scraping practices.</p>
+<p>I followed these best practices to get the data:</p>
+<ul>
+<li>I used a custom user-agent header that identified me as a BYU student using my BYU email.</li>
+<li>I only requested the data once, therefore not overloading Wikipedia’s servers.</li>
+<li>Ensured data collection was transparent and reproducible.</li>
+</ul>
+<p>All of these practices ensured that my data collection followed proper ethical research standards and web scraping techniques.</p>
+</section>
+<section id="how-to-get-the-data" class="level1">
+<h1>How to get the Data</h1>
+<p>To gather my data, I scraped publicly available data from Wikipedia. The page is called, “List of Busiest Airports by Passenger Traffic.” This webpage has separate tables for each year starting in 2020 until 2024. I chose to get all of this data to investigate which airports are the busiest and which airports bounced back from the COVID-19 pandemic the fastest.</p>
+<p>These are the steps that I took to get this data - and how you can collect it yourself!</p>
+<section id="set-up-your-environment-and-install-your-packages" class="level3">
+<h3 class="anchored" data-anchor-id="set-up-your-environment-and-install-your-packages">1. Set up your environment and install your packages</h3>
+<p>Install and import the necessary Python packages.</p>
+<div id="3940f596" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+</section>
+<section id="find-your-source-page" class="level3">
+<h3 class="anchored" data-anchor-id="find-your-source-page">2. Find your source page</h3>
+<p>I found my data all on one page in Wikipedia:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic">Wikipedia: List of Busiest Airports by Passenger Traffic</a></li>
+</ul>
+</section>
+<section id="make-a-request-for-the-data-and-extract-the-tables" class="level3">
+<h3 class="anchored" data-anchor-id="make-a-request-for-the-data-and-extract-the-tables">3. Make a request for the data and Extract the Tables</h3>
+<ul>
+<li>I included a custom user-agent string with my BYU email</li>
+<li>Then you use requests.get to get the data!</li>
+<li>Use raise_for_status checks to check if you got any errors getting your data</li>
+</ul>
+<div id="78a4f397" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>email <span class="op">=</span> <span class="st">"rasbands@byu.edu"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>ua <span class="op">=</span> <span class="ss">f"STAT386-class-scraper/1.0 (+</span><span class="sc">{</span>email<span class="sc">}</span><span class="ss">)"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">"https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> requests.get(url, headers<span class="op">=</span>{<span class="st">"User-Agent"</span>: ua, <span class="st">"From"</span>: email}, timeout<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>r.raise_for_status()</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>tables <span class="op">=</span> pd.read_html(r.text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stderr">
+<pre><code>/var/folders/2n/z5c1xg815rnc8_7vb9lnwrj40000gn/T/ipykernel_26169/4251988231.py:8: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+  tables = pd.read_html(r.text)</code></pre>
+</div>
+</div>
+</section>
+<section id="loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset">4. Loop through each year’s table, add a year column, &amp; concatenate them into one dataset</h3>
+<p>First, define the years you want to include and create an empty list to store each table. Then, loop through the tables, add a Year column, and concatenate everything together:</p>
+<div id="c376610e" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>years <span class="op">=</span> [<span class="dv">2024</span>, <span class="dv">2023</span>, <span class="dv">2022</span>, <span class="dv">2021</span>, <span class="dv">2020</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>all_airports <span class="op">=</span> []</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, year <span class="kw">in</span> <span class="bu">enumerate</span>(years):</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>   df <span class="op">=</span> tables[i].copy()</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>   df[<span class="st">"Year"</span>] <span class="op">=</span> year</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>   all_airports.append(df)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.concat(all_airports, ignore_index<span class="op">=</span><span class="va">True</span>) </span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+</section>
+<section id="clean-and-save-your-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="clean-and-save-your-dataset">5. Clean and save your dataset!</h3>
+<p>Perform basic cleaning and save your final CSV file.</p>
+<p>In general, if you want to do a similar project, find a webpage with structured tables, confirm that they can be read by pd.read_html(), add identifying info (like year or category), and then merge and clean your tables!</p>
+</section>
+</section>
+<section id="explanatory-data-analysis-eda" class="level1">
+<h1>Explanatory Data Analysis (EDA)</h1>
+<p>Before jumping into the analysis, I first did a quick look at the data to understand what it looks like.</p>
+<ul>
+<li>There are 250 observations - 50 observations for years 2020-2024</li>
+<li>There are 9 total variables: Rank, airport, location, country, code, total passengers, rank change, percent change, and year.</li>
+<li>Years range from 2020 to 2024, which captures the pandemic and the recovery period after.</li>
+</ul>
+<p>Here are a few interesting findings from numerical summaries of the numeric variables:</p>
+<ul>
+<li>The average number of passengers across the 250 airports was ~44 million, with the busiest airport reaching over 108 million passengers.</li>
+<li>The percent change varies widely — from -15% decline to nearly +955% growth, suggesting a mix of recovery and rapid growth likely due to post-COVID rebounds.</li>
+</ul>
+<p>Here is a graph showing how the number of passengers riding airplanes has significantly increased over the past 5 years since COVID-19.</p>
+<p><img src="../images/Passengers_year.png" class="img-fluid"></p>
+<p>After running some initial checks on the data and summary statistics, I dived deeper into the data and dived more into my questions of interest.</p>
+<section id="which-countries-and-airports-consistently-handle-the-most-passengers-from-20202024" class="level4">
+<h4 class="anchored" data-anchor-id="which-countries-and-airports-consistently-handle-the-most-passengers-from-20202024">Which countries and airports consistently handle the most passengers from <strong>2020–2024</strong>?</h4>
+<p>Here is a graph showing the top 10 airports overall since 2020:</p>
+<p><img src="../images/airports2.png" class="img-fluid"></p>
+<p>We can see that Harsfield-Jackson Atlanta International Airport has had the most passengers over the last 5 years. It’s average total passengers per year is 85,008,858. This is almost 20 million more than the next highest airport - Dallas Fort Worth International Airport. It is also interesting that the top 3 airports are in the United States.</p>
+<p>To better understand which airports are the most consistent and how countries compare, the table below shows the average passengers per airport from 2020–2024, along with total passengers and how many years each appeared in the top 50 list.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 22%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Airport</th>
+<th>Avg. Passengers</th>
+<th>Total Passengers</th>
+<th>Years in Top 50</th>
+<th>Country</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hartsfield–Jackson Atlanta Intl</td>
+<td>85,008,858</td>
+<td>425,044,292</td>
+<td>5</td>
+<td>United States</td>
+</tr>
+<tr class="even">
+<td>Dallas Fort Worth Intl</td>
+<td>68,953,419</td>
+<td>344,767,094</td>
+<td>5</td>
+<td>United States</td>
+</tr>
+<tr class="odd">
+<td>Denver Intl</td>
+<td>64,410,561</td>
+<td>322,052,803</td>
+<td>5</td>
+<td>United States</td>
+</tr>
+<tr class="even">
+<td>Seoul Incheon Intl</td>
+<td>63,452,329</td>
+<td>126,904,658</td>
+<td>2</td>
+<td>South Korea</td>
+</tr>
+<tr class="odd">
+<td>Heathrow</td>
+<td>61,697,870</td>
+<td>246,791,481</td>
+<td>4</td>
+<td>United Kingdom</td>
+</tr>
+<tr class="even">
+<td>O’Hare Intl</td>
+<td>61,431,709</td>
+<td>307,158,545</td>
+<td>5</td>
+<td>United States</td>
+</tr>
+<tr class="odd">
+<td>Dubai Intl</td>
+<td>60,062,345</td>
+<td>300,311,726</td>
+<td>5</td>
+<td>United Arab Emirates</td>
+</tr>
+<tr class="even">
+<td>Los Angeles Intl</td>
+<td>58,869,993</td>
+<td>294,349,964</td>
+<td>5</td>
+<td>United States</td>
+</tr>
+<tr class="odd">
+<td>Istanbul</td>
+<td>56,213,228</td>
+<td>281,066,142</td>
+<td>5</td>
+<td>Turkey</td>
+</tr>
+<tr class="even">
+<td>Guangzhou Baiyun Intl</td>
+<td>55,887,793</td>
+<td>223,551,173</td>
+<td>4</td>
+<td>China</td>
+</tr>
+</tbody>
+</table>
+<p>From this summary, we can see that <strong>Atlanta (ATL)</strong> clearly stands out as the busiest airport in the world, averaging over <strong>85 million passengers per year</strong> between 2020 and 2024. The United States dominates the rankings, with <strong>six airports</strong> represented. These airports also consistently appeared in the top 50 every year, showing how strong the U.S. air travel network is. Outside of the U.S., <strong>Dubai, Istanbul, Heathrow,</strong> and <strong>Guangzhou</strong> are the most consistent international hubs.</p>
+<p>Interestingly, <strong>Seoul Incheon International Airport</strong> only appears twice in the top 50 during the years 2020-2024. While looking into the data further, Seoul appeared in 2023 and 2024. This is likely due to the strong COVID-19 shutdowns in Asia.</p>
+<p>For more context about these airports over time, you can see this graph that shows the top 10 busiest aiports overall displayed over time:</p>
+<p><img src="../images/over_time.png" class="img-fluid"></p>
+<p>From this graph, we can clearly see again that Atlanta is significantly higher than all the other airports each year. We can also see how air travel is increasing each year for most of these big airports. Dubai had the biggest jump in passengers from 2021 to 2022, due to opening back up to travelers after Covid. From our discussion above about Seoul, we can also see that this airport appears in the top 50 in 2023 and stays for the year of 2024.</p>
+</section>
+<section id="which-countries-and-airports-have-recovered-the-quickest-after-the-covid-19-pandemic" class="level4">
+<h4 class="anchored" data-anchor-id="which-countries-and-airports-have-recovered-the-quickest-after-the-covid-19-pandemic">Which countries and airports have <strong>recovered the quickest</strong> after the COVID-19 pandemic?</h4>
+<p>To analyze this question, I looked at year-over-year percent change in passengers using the ‘PercentChangeSigned’ column. The results show patterns in geography and timing.</p>
+<p>During 2021, most of the fastest-recovering airports were located in the U.S.</p>
+<p><img src="../images/image.png" class="img-fluid"></p>
+<p>By 2022, the pattern shifted. The strongest growth rates were across Asia and Europe, as international borders opened back up again. Singapore was the airport that grew the most this year. You can also see that these year-over-year changes are extremely higher than what we saw in 2021.</p>
+<p><img src="../images/covid.png" class="img-fluid"></p>
+<p>Overall, this data shows that the U.S. recovered first in 2021. After that, Asia and Europe rebounded explosively as international travel resumed. The speed of how quick airports opened back up for travel varied across regions.</p>
+</section>
+</section>
+<section id="further-informationresources" class="level1">
+<h1>Further Information/Resources</h1>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic">Wikipedia: List of Busiest Airports by Passenger Traffic</a></li>
+<li><a href="https://pandas.pydata.org/docs/user_guide/index.html">Pandas User Guide</a></li>
+</ul>
+</section>
+<section id="link-to-code" class="level1">
+<h1>Link to Code</h1>
+<p>You can find my full project code here:</p>
+<p>Github Repository Link…</p>
 
 
 <!-- -->
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -693,7 +981,176 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Data Acquisition Project"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Sammi Hilton"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "2025-11-10"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduction</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>The world’s busiest airports over the years is a fascinating topic to dive into. Travel is becoming more popular each year, so I thought it would be interesting to dive into which airports have the most passengers flying through them. Airports Council International (ACI) publishes yearly reports ranking the world’s airports. This dataset provides valuable  information about which airports are the busiest, along with which airports are growing the fastest. It will provide a great opportunity to visualize global trends and identify the regions that are growing the fastest in air travel. </span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>The COVID-19 pandemic greatly disrupted global air travel. There was a huge decrease in 2020. Since then, air travel has increased. How fast airports increased their travel since 2020 will also be interesting to investigate. </span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>This project is interesting because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel. </span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="fu"># Motivating Questions </span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Which countries and airports consistently handle the most passengers from **2020–2024**?</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Which countries and airports have **recovered the quickest** after the COVID-19 pandemic?</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="fu"># Ethical Data Collection</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>All data used in this project was obtained from Wikipedia, a public, freely available online resource. Because the pages were publicly accessible and did not require any login or API key, collecting data with pd.read_html() was ethical and consistent with good web scraping practices. </span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>I followed these best practices to get the data:</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I used a custom user-agent header that identified me as a BYU student using my BYU email. </span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I only requested the data once, therefore not overloading Wikipedia’s servers. </span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Ensured data collection was transparent and reproducible.</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>All of these practices ensured that my data collection followed proper ethical research standards and web scraping techniques. </span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="fu"># How to get the Data</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>To gather my data, I scraped publicly available data from Wikipedia. The page is called, “List of Busiest Airports by Passenger Traffic.” This webpage has separate tables for each year starting in 2020 until 2024. I chose to get all of this data to investigate which airports are the busiest and which airports bounced back from the COVID-19 pandemic the fastest. </span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>These are the steps that I took to get this data - and how you can collect it yourself!</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. Set up your environment and install your packages </span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>Install and import the necessary Python packages.</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Find your source page </span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>I found my data all on one page in Wikipedia: </span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Wikipedia: List of Busiest Airports by Passenger Traffic</span><span class="co">](https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic)</span></span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3. Make a request for the data and Extract the Tables</span></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>I included a custom user-agent string with my BYU email </span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Then you use requests.get to get the data!</span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use raise_for_status checks to check if you got any errors getting your data</span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>email <span class="op">=</span> <span class="st">"rasbands@byu.edu"</span></span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>ua <span class="op">=</span> <span class="ss">f"STAT386-class-scraper/1.0 (+</span><span class="sc">{</span>email<span class="sc">}</span><span class="ss">)"</span></span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">"https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"</span></span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> requests.get(url, headers<span class="op">=</span>{<span class="st">"User-Agent"</span>: ua, <span class="st">"From"</span>: email}, timeout<span class="op">=</span><span class="dv">15</span>)</span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>r.raise_for_status()</span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>tables <span class="op">=</span> pd.read_html(r.text)</span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-75"><a href="#cb5-75" aria-hidden="true" tabindex="-1"></a><span class="fu">### 4. Loop through each year’s table, add a year column, &amp; concatenate them into one dataset</span></span>
+<span id="cb5-76"><a href="#cb5-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-77"><a href="#cb5-77" aria-hidden="true" tabindex="-1"></a>First, define the years you want to include and create an empty list to store each table. Then, loop through the tables, add a Year column, and concatenate everything together:</span>
+<span id="cb5-78"><a href="#cb5-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-81"><a href="#cb5-81" aria-hidden="true" tabindex="-1"></a><span class="in">```{python}</span></span>
+<span id="cb5-82"><a href="#cb5-82" aria-hidden="true" tabindex="-1"></a>years <span class="op">=</span> [<span class="dv">2024</span>, <span class="dv">2023</span>, <span class="dv">2022</span>, <span class="dv">2021</span>, <span class="dv">2020</span>]</span>
+<span id="cb5-83"><a href="#cb5-83" aria-hidden="true" tabindex="-1"></a>all_airports <span class="op">=</span> []</span>
+<span id="cb5-84"><a href="#cb5-84" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, year <span class="kw">in</span> <span class="bu">enumerate</span>(years):</span>
+<span id="cb5-85"><a href="#cb5-85" aria-hidden="true" tabindex="-1"></a>   df <span class="op">=</span> tables[i].copy()</span>
+<span id="cb5-86"><a href="#cb5-86" aria-hidden="true" tabindex="-1"></a>   df[<span class="st">"Year"</span>] <span class="op">=</span> year</span>
+<span id="cb5-87"><a href="#cb5-87" aria-hidden="true" tabindex="-1"></a>   all_airports.append(df)</span>
+<span id="cb5-88"><a href="#cb5-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-89"><a href="#cb5-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-90"><a href="#cb5-90" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> pd.concat(all_airports, ignore_index<span class="op">=</span><span class="va">True</span>) </span>
+<span id="cb5-91"><a href="#cb5-91" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb5-92"><a href="#cb5-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-93"><a href="#cb5-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-94"><a href="#cb5-94" aria-hidden="true" tabindex="-1"></a><span class="fu">### 5. Clean and save your dataset! </span></span>
+<span id="cb5-95"><a href="#cb5-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-96"><a href="#cb5-96" aria-hidden="true" tabindex="-1"></a>Perform basic cleaning and save your final CSV file.</span>
+<span id="cb5-97"><a href="#cb5-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-98"><a href="#cb5-98" aria-hidden="true" tabindex="-1"></a>In general, if you want to do a similar project, find a webpage with structured tables, confirm that they can be read by pd.read_html(), add identifying info (like year or category), and then merge and clean your tables! </span>
+<span id="cb5-99"><a href="#cb5-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-100"><a href="#cb5-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-101"><a href="#cb5-101" aria-hidden="true" tabindex="-1"></a><span class="fu"># Explanatory Data Analysis (EDA) </span></span>
+<span id="cb5-102"><a href="#cb5-102" aria-hidden="true" tabindex="-1"></a>Before jumping into the analysis, I first did a quick look at  the data to understand what it looks like.</span>
+<span id="cb5-103"><a href="#cb5-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-104"><a href="#cb5-104" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>There are 250 observations - 50 observations for years 2020-2024</span>
+<span id="cb5-105"><a href="#cb5-105" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>There are 9 total variables: Rank, airport, location, country, code, total passengers, rank change, percent change, and year. </span>
+<span id="cb5-106"><a href="#cb5-106" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Years range from 2020 to 2024, which captures the pandemic and the recovery period after. </span>
+<span id="cb5-107"><a href="#cb5-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-108"><a href="#cb5-108" aria-hidden="true" tabindex="-1"></a>Here are a few interesting findings from numerical summaries of the numeric variables:</span>
+<span id="cb5-109"><a href="#cb5-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-110"><a href="#cb5-110" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The average number of passengers across the 250 airports was ~44 million, with the busiest airport reaching over 108 million passengers.</span>
+<span id="cb5-111"><a href="#cb5-111" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The percent change varies widely — from -15% decline to nearly +955% growth, suggesting a mix of recovery and rapid growth likely due to post-COVID rebounds.</span>
+<span id="cb5-112"><a href="#cb5-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-113"><a href="#cb5-113" aria-hidden="true" tabindex="-1"></a>Here is a graph showing how the number of passengers riding airplanes has significantly increased over the past 5 years since COVID-19. </span>
+<span id="cb5-114"><a href="#cb5-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-115"><a href="#cb5-115" aria-hidden="true" tabindex="-1"></a><span class="al">![](../images/Passengers_year.png)</span></span>
+<span id="cb5-116"><a href="#cb5-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-117"><a href="#cb5-117" aria-hidden="true" tabindex="-1"></a>After running some initial checks on the data and summary statistics, I dived deeper into the data and dived more into my questions of interest. </span>
+<span id="cb5-118"><a href="#cb5-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-119"><a href="#cb5-119" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Which countries and airports consistently handle the most passengers from **2020–2024**?</span></span>
+<span id="cb5-120"><a href="#cb5-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-121"><a href="#cb5-121" aria-hidden="true" tabindex="-1"></a>Here is a graph showing the top 10 airports overall since 2020:</span>
+<span id="cb5-122"><a href="#cb5-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-123"><a href="#cb5-123" aria-hidden="true" tabindex="-1"></a><span class="al">![](../images/airports2.png)</span></span>
+<span id="cb5-124"><a href="#cb5-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-125"><a href="#cb5-125" aria-hidden="true" tabindex="-1"></a>We can see that Harsfield-Jackson Atlanta International Airport has had the most passengers over the last 5 years. It's average total passengers per year is 85,008,858. This is almost 20 million more than the next highest airport - Dallas Fort Worth International Airport. It is also interesting that the top 3 airports are in the United States. </span>
+<span id="cb5-126"><a href="#cb5-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-127"><a href="#cb5-127" aria-hidden="true" tabindex="-1"></a>To better understand which airports are the most consistent and how countries compare, the table below shows the average passengers per airport from 2020–2024, along with total passengers and how many years each appeared in the top 50 list.</span>
+<span id="cb5-128"><a href="#cb5-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-129"><a href="#cb5-129" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Airport <span class="pp">|</span> Avg. Passengers <span class="pp">|</span> Total Passengers <span class="pp">|</span> Years in Top 50 <span class="pp">|</span> Country <span class="pp">|</span></span>
+<span id="cb5-130"><a href="#cb5-130" aria-hidden="true" tabindex="-1"></a><span class="pp">|----------|----------------|------------------|------------------|----------|</span></span>
+<span id="cb5-131"><a href="#cb5-131" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Hartsfield–Jackson Atlanta Intl <span class="pp">|</span> 85,008,858 <span class="pp">|</span> 425,044,292 <span class="pp">|</span> 5 <span class="pp">|</span> United States <span class="pp">|</span></span>
+<span id="cb5-132"><a href="#cb5-132" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Dallas Fort Worth Intl <span class="pp">|</span> 68,953,419 <span class="pp">|</span> 344,767,094 <span class="pp">|</span> 5 <span class="pp">|</span> United States <span class="pp">|</span></span>
+<span id="cb5-133"><a href="#cb5-133" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Denver Intl <span class="pp">|</span> 64,410,561 <span class="pp">|</span> 322,052,803 <span class="pp">|</span> 5 <span class="pp">|</span> United States <span class="pp">|</span></span>
+<span id="cb5-134"><a href="#cb5-134" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Seoul Incheon Intl <span class="pp">|</span> 63,452,329 <span class="pp">|</span> 126,904,658 <span class="pp">|</span> 2 <span class="pp">|</span> South Korea <span class="pp">|</span></span>
+<span id="cb5-135"><a href="#cb5-135" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Heathrow <span class="pp">|</span> 61,697,870 <span class="pp">|</span> 246,791,481 <span class="pp">|</span> 4 <span class="pp">|</span> United Kingdom <span class="pp">|</span></span>
+<span id="cb5-136"><a href="#cb5-136" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> O’Hare Intl <span class="pp">|</span> 61,431,709 <span class="pp">|</span> 307,158,545 <span class="pp">|</span> 5 <span class="pp">|</span> United States <span class="pp">|</span></span>
+<span id="cb5-137"><a href="#cb5-137" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Dubai Intl <span class="pp">|</span> 60,062,345 <span class="pp">|</span> 300,311,726 <span class="pp">|</span> 5 <span class="pp">|</span> United Arab Emirates <span class="pp">|</span></span>
+<span id="cb5-138"><a href="#cb5-138" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Los Angeles Intl <span class="pp">|</span> 58,869,993 <span class="pp">|</span> 294,349,964 <span class="pp">|</span> 5 <span class="pp">|</span> United States <span class="pp">|</span></span>
+<span id="cb5-139"><a href="#cb5-139" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Istanbul <span class="pp">|</span> 56,213,228 <span class="pp">|</span> 281,066,142 <span class="pp">|</span> 5 <span class="pp">|</span> Turkey <span class="pp">|</span></span>
+<span id="cb5-140"><a href="#cb5-140" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Guangzhou Baiyun Intl <span class="pp">|</span> 55,887,793 <span class="pp">|</span> 223,551,173 <span class="pp">|</span> 4 <span class="pp">|</span> China <span class="pp">|</span></span>
+<span id="cb5-141"><a href="#cb5-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-142"><a href="#cb5-142" aria-hidden="true" tabindex="-1"></a>From this summary, we can see that **Atlanta (ATL)** clearly stands out as the busiest airport in the world, averaging over **85 million passengers per year** between 2020 and 2024. The United States dominates the rankings, with **six airports** represented. These airports also consistently appeared in the top 50 every year, showing how strong the U.S. air travel network is. Outside of the U.S., **Dubai, Istanbul, Heathrow,** and **Guangzhou** are the most consistent international hubs. </span>
+<span id="cb5-143"><a href="#cb5-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-144"><a href="#cb5-144" aria-hidden="true" tabindex="-1"></a>Interestingly, **Seoul Incheon International Airport** only appears twice in the top 50 during the years 2020-2024. While looking into the data further, Seoul appeared in 2023 and 2024. This is likely due to the strong COVID-19 shutdowns in Asia. </span>
+<span id="cb5-145"><a href="#cb5-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-146"><a href="#cb5-146" aria-hidden="true" tabindex="-1"></a>For more context about these airports over time, you can see this graph that shows the top 10 busiest aiports overall displayed over time:</span>
+<span id="cb5-147"><a href="#cb5-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-148"><a href="#cb5-148" aria-hidden="true" tabindex="-1"></a><span class="al">![](../images/over_time.png)</span></span>
+<span id="cb5-149"><a href="#cb5-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-150"><a href="#cb5-150" aria-hidden="true" tabindex="-1"></a>From this graph, we can clearly see again that Atlanta is significantly higher than all the other airports each year. We can also see how air travel is increasing each year for most of these big airports. Dubai had the biggest jump in passengers from 2021 to 2022, due to opening back up to travelers after Covid. From our discussion above about Seoul, we can also see that this airport appears in the top 50 in 2023 and stays for the year of 2024. </span>
+<span id="cb5-151"><a href="#cb5-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-152"><a href="#cb5-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-153"><a href="#cb5-153" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Which countries and airports have **recovered the quickest** after the COVID-19 pandemic?</span></span>
+<span id="cb5-154"><a href="#cb5-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-155"><a href="#cb5-155" aria-hidden="true" tabindex="-1"></a>To analyze this question, I looked at year-over-year percent change in passengers using the 'PercentChangeSigned' column. The results show patterns in geography and timing.</span>
+<span id="cb5-156"><a href="#cb5-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-157"><a href="#cb5-157" aria-hidden="true" tabindex="-1"></a>During 2021, most of the fastest-recovering airports were located in the U.S. </span>
+<span id="cb5-158"><a href="#cb5-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-159"><a href="#cb5-159" aria-hidden="true" tabindex="-1"></a><span class="al">![](../images/image.png)</span></span>
+<span id="cb5-160"><a href="#cb5-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-161"><a href="#cb5-161" aria-hidden="true" tabindex="-1"></a>By 2022, the pattern shifted. The strongest growth rates were across Asia and Europe, as international borders opened back up again. Singapore was the airport that grew the most this year. You can also see that these year-over-year changes are extremely higher than what we saw in 2021. </span>
+<span id="cb5-162"><a href="#cb5-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-163"><a href="#cb5-163" aria-hidden="true" tabindex="-1"></a><span class="al">![](../images/covid.png)</span></span>
+<span id="cb5-164"><a href="#cb5-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-165"><a href="#cb5-165" aria-hidden="true" tabindex="-1"></a>Overall, this data shows that the U.S. recovered first in 2021. After that, Asia and Europe rebounded explosively as international travel resumed. The speed of how quick airports opened back up for travel varied across regions. </span>
+<span id="cb5-166"><a href="#cb5-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-167"><a href="#cb5-167" aria-hidden="true" tabindex="-1"></a><span class="fu"># Further Information/Resources</span></span>
+<span id="cb5-168"><a href="#cb5-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-169"><a href="#cb5-169" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Wikipedia: List of Busiest Airports by Passenger Traffic</span><span class="co">](https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic)</span></span>
+<span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Pandas User Guide</span><span class="co">](https://pandas.pydata.org/docs/user_guide/index.html)</span></span>
+<span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a><span class="fu"># Link to Code </span></span>
+<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>You can find my full project code here:</span>
+<span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>Github Repository Link...</span>
+</code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
