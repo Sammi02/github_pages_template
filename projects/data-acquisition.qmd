@@ -14,7 +14,7 @@ The world’s busiest airports over the years is a fascinating topic to dive int
 
 The COVID-19 pandemic greatly disrupted global air travel. There was a huge decrease in 2020. Since then, air travel has increased. How fast airports increased their travel since 2020 will also be interesting to investigate. 
 
-This project is interesting because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel. 
+This project is relevant because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel. 
 
 # Motivating Questions 
 
@@ -164,7 +164,6 @@ Overall, this data shows that the U.S. recovered first in 2021. After that, Asia
 - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 
 # Link to Code 
-You can find my full project code here:
+You can find my full project code here! 
 
-Github Repository Link...
-
+[Github Repository Link](https://github.com/Sammi02/Data-Acquisition-Blog )

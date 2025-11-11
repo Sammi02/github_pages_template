@@ -293,7 +293,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Introduction</h1>
 <p>The world’s busiest airports over the years is a fascinating topic to dive into. Travel is becoming more popular each year, so I thought it would be interesting to dive into which airports have the most passengers flying through them. Airports Council International (ACI) publishes yearly reports ranking the world’s airports. This dataset provides valuable information about which airports are the busiest, along with which airports are growing the fastest. It will provide a great opportunity to visualize global trends and identify the regions that are growing the fastest in air travel.</p>
 <p>The COVID-19 pandemic greatly disrupted global air travel. There was a huge decrease in 2020. Since then, air travel has increased. How fast airports increased their travel since 2020 will also be interesting to investigate.</p>
-<p>This project is interesting because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel.</p>
+<p>This project is relevant because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel.</p>
 </section>
 <section id="motivating-questions" class="level1">
 <h1>Motivating Questions</h1>
@@ -320,7 +320,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="set-up-your-environment-and-install-your-packages" class="level3">
 <h3 class="anchored" data-anchor-id="set-up-your-environment-and-install-your-packages">1. Set up your environment and install your packages</h3>
 <p>Install and import the necessary Python packages.</p>
-<div id="3940f596" class="cell" data-execution_count="1">
+<div id="49056698" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
@@ -342,7 +342,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Then you use requests.get to get the data!</li>
 <li>Use raise_for_status checks to check if you got any errors getting your data</li>
 </ul>
-<div id="78a4f397" class="cell" data-execution_count="2">
+<div id="8dde64e4" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>email <span class="op">=</span> <span class="st">"rasbands@byu.edu"</span></span>
@@ -355,7 +355,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>tables <span class="op">=</span> pd.read_html(r.text)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>/var/folders/2n/z5c1xg815rnc8_7vb9lnwrj40000gn/T/ipykernel_26169/4251988231.py:8: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+<pre><code>/var/folders/2n/z5c1xg815rnc8_7vb9lnwrj40000gn/T/ipykernel_27600/4251988231.py:8: FutureWarning: Passing literal html to 'read_html' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
   tables = pd.read_html(r.text)</code></pre>
 </div>
 </div>
@@ -363,7 +363,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset" class="level3">
 <h3 class="anchored" data-anchor-id="loop-through-each-years-table-add-a-year-column-concatenate-them-into-one-dataset">4. Loop through each year’s table, add a year column, &amp; concatenate them into one dataset</h3>
 <p>First, define the years you want to include and create an empty list to store each table. Then, loop through the tables, add a Year column, and concatenate everything together:</p>
-<div id="c376610e" class="cell" data-execution_count="3">
+<div id="aa241a23" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>years <span class="op">=</span> [<span class="dv">2024</span>, <span class="dv">2023</span>, <span class="dv">2022</span>, <span class="dv">2021</span>, <span class="dv">2020</span>]</span>
@@ -521,8 +521,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="link-to-code" class="level1">
 <h1>Link to Code</h1>
-<p>You can find my full project code here:</p>
-<p>Github Repository Link…</p>
+<p>You can find my full project code here!</p>
+<p><a href="https://github.com/Sammi02/Data-Acquisition-Blog">Github Repository Link</a></p>
 
 
 <!-- -->
@@ -997,7 +997,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>The COVID-19 pandemic greatly disrupted global air travel. There was a huge decrease in 2020. Since then, air travel has increased. How fast airports increased their travel since 2020 will also be interesting to investigate. </span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>This project is interesting because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel. </span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>This project is relevant because it combines real-world data from multiple years, helps practice web scraping and data cleaning in Python, and uses exploratory data analysis (EDA) to answer practical questions about global air travel. </span>
 <span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="fu"># Motivating Questions </span></span>
 <span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a></span>
@@ -1147,9 +1147,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Pandas User Guide</span><span class="co">](https://pandas.pydata.org/docs/user_guide/index.html)</span></span>
 <span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a><span class="fu"># Link to Code </span></span>
-<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>You can find my full project code here:</span>
+<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>You can find my full project code here! </span>
 <span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>Github Repository Link...</span>
+<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Github Repository Link</span><span class="co">](https://github.com/Sammi02/Data-Acquisition-Blog )</span></span>
 </code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
