@@ -34,7 +34,7 @@ All of these practices ensured that my data collection followed proper ethical r
 
 
 # How to get the Data
-To gather my data, I scraped publicly available data from Wikipedia. The page is called, “List of Busiest Airports by Passenger Traffic.” This webpage has separate tables for each year starting in 2020 until 2024. I chose to get all of this data to investigate which airports are the busiest and which airports bounced back from the COVID-19 pandemic the fastest. 
+To gather my data, I scraped publicly available data from **Wikipedia**. The page is called, “List of Busiest Airports by Passenger Traffic.” This webpage has separate tables for each year starting in 2020 until 2024. I chose to get all of this data to investigate which airports are the busiest and which airports bounced back from the COVID-19 pandemic the fastest. 
 
 These are the steps that I took to get this data - and how you can collect it yourself!
 
@@ -95,9 +95,9 @@ In general, if you want to do a similar project, find a webpage with structured 
 # Explanatory Data Analysis (EDA) 
 Before jumping into the analysis, I first did a quick look at  the data to understand what it looks like.
 
-- There are 250 observations - 50 observations for years 2020-2024
-- There are 9 total variables: Rank, airport, location, country, code, total passengers, rank change, percent change, and year. 
-- Years range from 2020 to 2024, which captures the pandemic and the recovery period after. 
+- There are **250 observations** - 50 observations for years 2020-2024
+- There are **9 total variables**: Rank, airport, location, country, code, total passengers, rank change, percent change, and year. 
+- Years range from **2020 to 2024**, which captures the pandemic and the recovery period after. 
 
 Here are a few interesting findings from numerical summaries of the numeric variables:
 
@@ -116,7 +116,7 @@ Here is a graph showing the top 10 airports overall since 2020:
 
 ![](../images/airports2.png)
 
-We can see that Harsfield-Jackson Atlanta International Airport has had the most passengers over the last 5 years. It's average total passengers per year is 85,008,858. This is almost 20 million more than the next highest airport - Dallas Fort Worth International Airport. It is also interesting that the top 3 airports are in the United States. 
+We can see that **Harsfield-Jackson Atlanta International Airport** has had the most passengers over the last 5 years. It's average total passengers per year is 85,008,858. This is almost 20 million more than the next highest airport - Dallas Fort Worth International Airport. It is also interesting that the top 3 airports are in the United States. 
 
 To better understand which airports are the most consistent and how countries compare, the table below shows the average passengers per airport from 2020–2024, along with total passengers and how many years each appeared in the top 50 list.
 
@@ -133,7 +133,7 @@ To better understand which airports are the most consistent and how countries co
 | Istanbul | 56,213,228 | 281,066,142 | 5 | Turkey |
 | Guangzhou Baiyun Intl | 55,887,793 | 223,551,173 | 4 | China |
 
-From this summary, we can see that **Atlanta (ATL)** clearly stands out as the busiest airport in the world, averaging over **85 million passengers per year** between 2020 and 2024. The United States dominates the rankings, with **six airports** represented. These airports also consistently appeared in the top 50 every year, showing how strong the U.S. air travel network is. Outside of the U.S., **Dubai, Istanbul, Heathrow,** and **Guangzhou** are the most consistent international hubs. 
+From this summary, we can see that **Atlanta (ATL)** clearly stands out as the busiest airport in the world, averaging over **85 million passengers per year** between 2020 and 2024. The United States dominates the rankings, with **six airports** represented. These airports also consistently appeared in the top 50 every year, showing how strong the U.S. air travel network is. Outside of the U.S., Dubai, Istanbul, Heathrow and Guangzhou are the most consistent international hubs. 
 
 Interestingly, **Seoul Incheon International Airport** only appears twice in the top 50 during the years 2020-2024. While looking into the data further, Seoul appeared in 2023 and 2024. This is likely due to the strong COVID-19 shutdowns in Asia. 
 
@@ -160,10 +160,12 @@ Overall, this data shows that the U.S. recovered first in 2021. After that, Asia
 
 # Further Information/Resources
 
+To further investigate this data, you can look into these links:
+
 - [Wikipedia: List of Busiest Airports by Passenger Traffic](https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic)
 - [Pandas User Guide](https://pandas.pydata.org/docs/user_guide/index.html)
 
 # Link to Code 
-You can find my full project code here! 
+You can find my full project code and more analysis here! 
 
 [Github Repository Link](https://github.com/Sammi02/Data-Acquisition-Blog )
